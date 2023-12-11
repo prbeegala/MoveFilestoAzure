@@ -1,4 +1,4 @@
-# MoveFilestoAzure
+# Options of Moving Files from on-prem to Azure
 
 Broadly the options are as follows (not in any order of preference)
 
