@@ -26,7 +26,7 @@ Important:
 Using Logic Apps Standard (or consumption), with managed File system connector. This managed connector depends on on-prem data gateway to be installed on a VM on-prem - https://learn.microsoft.com/en-us/azure/logic-apps/install-on-premises-data-gateway - through which it will establish connection to move files from on-prem to Azure. To understand what this on-prem data gateway is, and how it works - https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem 
 
 # Azure Data Factory 
-Using Azure Data factory - https://learn.microsoft.com/en-us/azure/data-factory/connector-file-system?tabs=data-factory - , and if your data store is located inside an -n-prem network, an Azure visturl network, you need to configure Self-hosted integration runtime - https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory - to connect to it.
+Using Azure Data factory - https://learn.microsoft.com/en-us/azure/data-factory/connector-file-system?tabs=data-factory - , and if your data store is located inside an on-prem network, an Azure virtual network, you need to configure Self-hosted integration runtime - https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory - to connect to it.
 
 
 # Azure File Sync
